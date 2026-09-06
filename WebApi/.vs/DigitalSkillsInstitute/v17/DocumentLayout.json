@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c#\\DigitalSkillsInstitute\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\controllers\\sortturmcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:controllers\\sortturmcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\getenquirylistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\getenquirylistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\enquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\enquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\savepersonalinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\savepersonalinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\eductiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\eductiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\controllers\\degreeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:controllers\\degreeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\controllers\\courseinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:controllers\\courseinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\dgreeinfodetailsfees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\dgreeinfodetailsfees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\courseregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\courseregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\contactdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\contactdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\shorttermcoursedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\shorttermcoursedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\sortturmcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\sortturmcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|e:\\c#\\digitalskillsinstitute\\model\\degreeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AF5D69-2781-4CDD-87C0-9980640E9958}|DigitalSkillsInstitute.csproj|solutionrelative:model\\degreeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 175,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 11,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetEnquiryListDTO.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\GetEnquiryListDTO.cs",
+              "RelativeDocumentMoniker": "Model\\GetEnquiryListDTO.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\GetEnquiryListDTO.cs",
+              "RelativeToolTip": "Model\\GetEnquiryListDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T18:44:24.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-22T18:05:49.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\Course.cs",
+              "RelativeDocumentMoniker": "Model\\Course.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\Course.cs",
+              "RelativeToolTip": "Model\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T17:54:06.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SavePersonalInfoDTO.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\SavePersonalInfoDTO.cs",
+              "RelativeDocumentMoniker": "Model\\SavePersonalInfoDTO.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\SavePersonalInfoDTO.cs",
+              "RelativeToolTip": "Model\\SavePersonalInfoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T17:21:02.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResultModel.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\ResultModel.cs",
+              "RelativeDocumentMoniker": "Model\\ResultModel.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\ResultModel.cs",
+              "RelativeToolTip": "Model\\ResultModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T19:37:56.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EductionDetails.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\EductionDetails.cs",
+              "RelativeDocumentMoniker": "Model\\EductionDetails.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\EductionDetails.cs",
+              "RelativeToolTip": "Model\\EductionDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:46:15.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContactDetail.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\ContactDetail.cs",
+              "RelativeDocumentMoniker": "Model\\ContactDetail.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\ContactDetail.cs",
+              "RelativeToolTip": "Model\\ContactDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:44:08.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PersonalInfo.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\PersonalInfo.cs",
+              "RelativeDocumentMoniker": "Model\\PersonalInfo.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\PersonalInfo.cs",
+              "RelativeToolTip": "Model\\PersonalInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:42:56.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseRegistration.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\CourseRegistration.cs",
+              "RelativeDocumentMoniker": "Model\\CourseRegistration.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\CourseRegistration.cs",
+              "RelativeToolTip": "Model\\CourseRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T18:31:41.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Resultstatus.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\Resultstatus.cs",
+              "RelativeDocumentMoniker": "Model\\Resultstatus.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\Resultstatus.cs",
+              "RelativeToolTip": "Model\\Resultstatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T18:52:30.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enquiry.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\Enquiry.cs",
+              "RelativeDocumentMoniker": "Model\\Enquiry.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\Enquiry.cs",
+              "RelativeToolTip": "Model\\Enquiry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T18:36:16.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ShortTermCourseDetail.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\ShortTermCourseDetail.cs",
+              "RelativeDocumentMoniker": "Model\\ShortTermCourseDetail.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\ShortTermCourseDetail.cs",
+              "RelativeToolTip": "Model\\ShortTermCourseDetail.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T18:24:47.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DgreeinfoDetailsFees.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\DgreeinfoDetailsFees.cs",
+              "RelativeDocumentMoniker": "Model\\DgreeinfoDetailsFees.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\DgreeinfoDetailsFees.cs",
+              "RelativeToolTip": "Model\\DgreeinfoDetailsFees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T18:30:26.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DegreeInfo.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\DegreeInfo.cs",
+              "RelativeDocumentMoniker": "Model\\DegreeInfo.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\DegreeInfo.cs",
+              "RelativeToolTip": "Model\\DegreeInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T19:22:03.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DegreeInfoController.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Controllers\\DegreeInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DegreeInfoController.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Controllers\\DegreeInfoController.cs",
+              "RelativeToolTip": "Controllers\\DegreeInfoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T19:21:29.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SortturmCourseController.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Controllers\\SortturmCourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SortturmCourseController.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Controllers\\SortturmCourseController.cs",
+              "RelativeToolTip": "Controllers\\SortturmCourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T19:33:49.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SortturmCourse.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\SortturmCourse.cs",
+              "RelativeDocumentMoniker": "Model\\SortturmCourse.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\SortturmCourse.cs",
+              "RelativeToolTip": "Model\\SortturmCourse.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T19:29:57.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:23:23.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Model\\AppDbContext.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Model\\AppDbContext.cs",
+              "RelativeToolTip": "Model\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T07:21:58.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseInfoController.cs",
+              "DocumentMoniker": "E:\\c#\\DigitalSkillsInstitute\\Controllers\\CourseInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseInfoController.cs",
+              "ToolTip": "E:\\c#\\DigitalSkillsInstitute\\Controllers\\CourseInfoController.cs",
+              "RelativeToolTip": "Controllers\\CourseInfoController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T06:59:52.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

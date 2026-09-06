@@ -1,0 +1,20 @@
+
+<div class="productContainer">
+
+    <div class="product-card" *ngFor="let item of sortturmcourse">
+        
+            <img [src]="item.image" [alt]="item.Coursename" class="productImage">
+            <div class="description">
+                <span>{{ item.Coursename }}</span>
+                <p >{{ item.sortdescription }}</p>
+                <b><span style="font-size:25px;">₹ {{ item.price }}</span></b>
+                <!-- <button class="btn bg-primary">Inroll Know</button> -->
+                 <a class="btn btn-primary" [routerLink]="['/sortturmcourse-info', item.id]"> Enroll Now</a>
+
+                <!-- <a class="btn btn-primary" [routerLink]="['/degree-info', item.id]">Enroll Now</a> -->
+
+            </div>
+            
+    </div>
+</div>
+

@@ -1,0 +1,114 @@
+<div class="container SliderContainer">
+    <img [src]="images[currentIndex]" alt="Slider Image"
+        style="width: 100%; height: 100%;   box-shadow: 0px 0px 14px 0px;">
+</div>
+
+<div class="container SortturmCourseInfo">
+    <div class="CourseRow">
+        {{ SortturmCourseInfo.courseName}}
+
+    </div>
+
+    <div class="row d-flex justify-content-around">
+        <div class="col-2 grid">
+            <img [src]="SortturmCourseInfo?.image" alt="Course Image" class="img-fluid rounded-1 shadow" />
+        </div>
+        <div class="col-3 descriptionBox">
+            <h4>Description</h4>
+            {{ SortturmCourseInfo?. longDescription}}
+        </div>
+        <div class="col-4 grid">
+            <table class="table table-bordered align-middle">
+
+                <tbody>
+                    <tr>
+                        <th class="bg-light w-25">Name</th>
+                        <td style="background-color: aqua;" *ngIf="SortturmCourseInfo"> {{
+                            SortturmCourseInfo?.courseName}}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light w-25">Duration</th>
+                        <td>{{ SortturmCourseInfo?.duration }}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Fees</th>
+                        <td>₹ {{ SortturmCourseInfo?.price }}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Language</th>
+                        <td>{{ SortturmCourseInfo?.language }}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Level</th>
+                        <td>{{ SortturmCourseInfo?.level }}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <table class="table table-bordered align-middle">
+
+                <tbody>
+                    <tr>
+                        <th class="bg-light">Rating</th>
+                        <td>
+                            ⭐ {{ SortturmCourseInfo?.rating }}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Students</th>
+                        <td>
+                            {{ SortturmCourseInfo?.students }}+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Certification</th>
+                        <td>
+                            <span class="badge bg-success px-3 py-2" *ngIf="SortturmCourseInfo?.status">
+                                Available
+                            </span>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-2 grid">
+            <form (ngSubmit)="saveData()">
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" name="email" [(ngModel)]="enquiry.email" placeholder="Enter your email"
+                        class="enquire">
+                </div>
+
+                <div class="input-group">
+                    <label>Mobile No</label>
+                    <input type="text" name="mobileNo" [(ngModel)]="enquiry.mobileNo" placeholder="Enter mobile number"
+                        class="enquire">
+                </div>
+
+                <div class="input-group">
+                    <label>Course</label>
+                    <input type="text" name="courseName" [(ngModel)]="enquiry.courseName"
+                        placeholder="Enter course name" class="enquire">
+                </div>
+
+                <button type="submit" class="btn enquire">
+                    Submit Inquiry
+                </button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+</div>

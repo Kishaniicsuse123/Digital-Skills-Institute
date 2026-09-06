@@ -1,0 +1,379 @@
+<div class="container-flud" style="padding: 10px; align-content: center; ">
+    <div class="row"
+        style="box-shadow: 0px 0px 10px 0px gray; border-radius: 5px; padding: 20px; width: 90%;position: relative; left: 6%;">
+        <div class="col-3 profile-card">
+            <div class="card-header">
+                <h4>Personal Info Details</h4>
+                <div>
+                    <button class="btn btn-primary" (click)="togglePersonalEdit()">{{ isPersonalEditMode ? 'Close' :
+                        'Edit' }}
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="profile-header">
+                <img [src]="'data:image/png;base64,' + personalInfo.profilePhoto" alt="Profile Photo"
+                    class="profile-photo">
+
+            </div>
+
+            <div class="profile-body">
+
+                <div class="info-row">
+                    <span class="label">Full Name</span>
+                    <span class="value">{{personalInfo.fullName}}</span>
+                </div>
+
+                <div class="info-row">
+                    <span class="label">Father/Mother Name</span>
+                    <span class="value">{{personalInfo.fatherMotherName}}</span>
+                </div>
+
+                <div class="info-row">
+                    <span class="label">Gender</span>
+                    <span class="value">{{personalInfo.gender}}</span>
+                </div>
+
+                <div class="info-row">
+                    <span class="label">Date of Birth</span>
+                    <span class="value">{{personalInfo.dateOfBirth}}</span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-7 ">
+            <div class="contact-card">
+                <div class="card-header">
+                    <h4>Contact Details</h4>
+                    <div>
+
+                        <button class="btn btn-primary" (click)="toggleEditMode()">{{ isEditMode ? 'Close' : 'Edit' }}
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <!-- Row 1 -->
+                    <div class="row">
+                        <div class="table-responsive">
+                            <table class="table table-bordered text-center">
+
+                                <tr style="height:30px;">
+                                    <th>Mobile Number</th>
+                                    <th>Alternate Mobile Number</th>
+                                    <th>Email</th>
+                                    <th>Address</th>
+                                </tr>
+
+                                <tr style="height:50px;">
+
+                                    <td>{{ contactDetail.mobileNumber }}</td>
+                                    <td>{{ contactDetail.alternateMobileNumber }}</td>
+                                    <td>{{ contactDetail.emailAddress }}</td>
+                                    <td>{{ contactDetail.addressLine }}</td>
+                                </tr>
+
+                                <tr style="height:30px;">
+                                    <th>City</th>
+                                    <th>State</th>
+                                    <th>Pincode</th>
+                                    <th>District</th>
+                                </tr>
+
+                                <tr style="height:50px;">
+                                    <td>{{ contactDetail.city }}</td>
+                                    <td>{{ contactDetail.state }}</td>
+                                    <td>{{ contactDetail.pincode }}</td>
+                                    <td>{{ contactDetail.Distric }}</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-header">
+
+                    <h4>Eduction Details</h4>
+                    <button class="btn btn-primary" (click)="toggleEducationEdit()">{{ isEducationEditMode ?
+                        'Close':'Edit' }}
+                    </button>
+
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center">
+                        <tr style="height:50px;">
+                            <th>Course Name</th>
+                            <th>Course Mode</th>
+                            <th>Batch Timing</th>
+                            <th>Course Duration</th>
+                            <th>Preferred Start Date</th>
+                        </tr>
+
+                        <tr style="height:50px;">
+                            <td>{{ educationDetail.courseName }}</td>
+                            <td>{{ educationDetail.courseMode }}</td>
+                            <td>{{ educationDetail.batchTiming }}</td>
+                            <td>{{ educationDetail.courseDuration }}</td>
+                            <td>{{ educationDetail.preferredStartDate }}</td>
+                        </tr>
+
+                        <tr style="height:50px;">
+                            <th>Highest Qualification</th>
+                            <th>College / University</th>
+                            <th>Passing Year</th>
+                            <th>Percentage / CGPA</th>
+                            <th></th>
+                        </tr>
+
+                        <tr style="height:50px;">
+                            <td>{{ educationDetail.highestQualification }}</td>
+                            <td>{{ educationDetail.collegeUniversityName }}</td>
+                            <td>{{ educationDetail.passingYear }}</td>
+                            <td>{{ educationDetail.percentageCGPA }}</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- 
+Edit Personal Info -->
+<!-- <form *ngIf="isPersonalEditMode" class="Edit-profile-body" (ngSubmit)="savePersonalInfo()">
+
+    <div class="mb-3">
+        <label>Full Name</label>
+        <input type="text" class="form-control" [(ngModel)]="personalInfo.fullName">
+    </div>
+
+    <div class="mb-3">
+        <label>Father/Mother Name</label>
+        <input type="text" class="form-control" [(ngModel)]="personalInfo.fatherMotherName">
+    </div>
+
+    <div class="mb-3">
+        <label>Gender</label>
+        <select class="form-control" [(ngModel)]="personalInfo.gender">
+
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Date Of Birth</label>
+        <input type="date" class="form-control" [(ngModel)]="personalInfo.dateOfBirth">
+    </div>
+
+    <div class="mb-3">
+        <label>Profile Photo</label>
+        <input type="file" class="form-control" (change)="onFileSelected($event)">
+    </div>
+
+    <button class="btn btn-success me-2" (click)="updatePersonalInfo()">
+        Save
+    </button>
+
+    <button class="btn btn-secondary" (click)="togglePersonalEdit()">
+        Cancel
+    </button>
+
+</form> -->
+
+<form *ngIf="isPersonalEditMode"
+      class="Edit-profile-body"
+      (ngSubmit)="savePersonalInfo()">
+
+    <div class="mb-3">
+        <label>Full Name</label>
+        <input type="text" class="form-control"
+               name="fullName"
+               [(ngModel)]="personalInfo.fullName">
+    </div>
+
+    <div class="mb-3">
+        <label>Father/Mother Name</label>
+        <input type="text" class="form-control"
+               name="fatherMotherName"
+               [(ngModel)]="personalInfo.fatherMotherName">
+    </div>
+
+    <div class="mb-3">
+        <label>Gender</label>
+        <select class="form-control"
+                name="gender"
+                [(ngModel)]="personalInfo.gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Date Of Birth</label>
+        <input type="date"
+               class="form-control"
+               name="dateOfBirth"
+               [(ngModel)]="personalInfo.dateOfBirth">
+    </div>
+
+    <div class="mb-3">
+        <label>Profile Photo</label>
+        <input type="file"
+               class="form-control"
+               (change)="onFileSelected($event)">
+    </div>
+
+    <button type="submit" class="btn btn-success me-2">
+        Save
+    </button>
+
+    <button type="button"
+            class="btn btn-secondary"
+            (click)="togglePersonalEdit()">
+        Cancel
+    </button>
+
+</form>
+
+<!-- ----Edit Contact Details--- -->
+<form *ngIf="isEditMode" class="editdetails" (ngSubmit)="saveContactDetail()">
+
+    <h4>Edit Contact Details</h4>
+
+    <div class="row">
+
+        <!-- Mobile Number -->
+        <div class="col-md-3 mb-3">
+            <label>Mobile Number</label>
+            <input type="text" class="form-control" name="mobileNumber" [(ngModel)]="contactDetail.mobileNumber">
+        </div>
+
+        <!-- Alternate Mobile -->
+        <div class="col-md-3 mb-3">
+            <label>Alternate Mobile Number</label>
+            <input type="text" class="form-control" name="alternateMobileNumber"
+                [(ngModel)]="contactDetail.alternateMobileNumber">
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-3 mb-3">
+            <label>Email</label>
+            <input type="email" class="form-control" name="emailAddress" [(ngModel)]="contactDetail.emailAddress">
+        </div>
+
+        <!-- Address -->
+        <div class="col-md-3 mb-3">
+            <label>Address</label>
+            <input type="text" class="form-control" name="addressLine" [(ngModel)]="contactDetail.addressLine">
+        </div>
+
+        <!-- City -->
+        <div class="col-md-3 mb-3">
+            <label>City</label>
+            <input type="text" class="form-control" name="city" [(ngModel)]="contactDetail.city">
+        </div>
+
+        <!-- State -->
+        <div class="col-md-3 mb-3">
+            <label>State</label>
+            <input type="text" class="form-control" name="state" [(ngModel)]="contactDetail.state">
+        </div>
+
+        <!-- Pincode -->
+        <div class="col-md-3 mb-3">
+            <label>Pincode</label>
+            <input type="text" class="form-control" name="pincode" [(ngModel)]="contactDetail.pincode">
+        </div>
+
+        <!-- District -->
+        <div class="col-md-3 mb-3">
+            <label>District</label>
+            <input type="text" class="form-control" name="Distric" [(ngModel)]="contactDetail.Distric">
+        </div>
+
+    </div>
+
+  <button type="submit"
+        class="btn btn-success me-2">
+    Save
+</button>
+
+    <!-- <button class="btn btn-secondary" (click)="toggleEditMode()">
+        Cancel
+    </button> -->
+
+
+</form>
+
+<!-- Eduction Edit  -->
+<div *ngIf="isEducationEditMode" class="EditEductionCard" (ngSubmit)="saveEducationDetail()">
+    <h4 style="margin-bottom: 30px;">Edit Contact Details</h4>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-3">
+            <label>Course Name</label>
+            <input type="text" class="form-control" [(ngModel)]="educationDetail.courseName">
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label>Course Mode</label>
+            <input type="text" class="form-control" [(ngModel)]="educationDetail.courseMode">
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label>Batch Timing</label>
+            <input type="text" class="form-control" [(ngModel)]="educationDetail.batchTiming">
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label>Course Duration</label>
+            <input type="text" class="form-control" [(ngModel)]="educationDetail.courseDuration">
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label>Preferred Start Date</label>
+            <input type="date" class="form-control" [(ngModel)]="educationDetail.preferredStartDate">
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label>Highest Qualification</label>
+            <input type="text" class="form-control" [(ngModel)]="educationDetail.highestQualification">
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label>College / University</label>
+            <input type="text" class="form-control" [(ngModel)]="educationDetail.collegeUniversityName">
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <label>Passing Year</label>
+            <input type="number" class="form-control" [(ngModel)]="educationDetail.passingYear">
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <label>Percentage / CGPA</label>
+            <input type="number" class="form-control" [(ngModel)]="educationDetail.percentageCGPA">
+        </div>
+
+    </div>
+
+    <button class="btn btn-success me-2" (click)="updateEducationDetail()">
+        Save
+    </button>
+
+    <button class="btn btn-secondary" (click)="toggleEducationEdit()">
+        Cancel
+    </button>
+
+</div>

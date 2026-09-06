@@ -1,0 +1,14 @@
+.info-box {
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.info-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.info-box::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}

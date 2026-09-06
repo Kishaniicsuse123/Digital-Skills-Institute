@@ -1,0 +1,57 @@
+<div class="container-fluid " style="border: solid black 1px;">
+    <div class="row align-items-center justify-content-between">
+        <div class="col-lg-3 col-md-3 col-12 mb-2 mb-lg-0">
+            <button class="menu-btn" (click)="isOpen = !isOpen">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="images/logo.png" alt="Logo" width="200px" height="60px">
+            </a>
+
+        </div>
+
+        <div class="col-lg-5 col-md-5 col-12 mb-2 mb-lg-0 search-container">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" placeholder="Search here..." class="search-input">
+        </div>
+
+        <div class="col-lg-3 col-md-2 col-6 userinfo">
+            <div><label>Kishan</label></div>
+            <div><img src="images/kishantest.jpg" alt="Logo" class="useprofile"></div>
+            <div><button class="iconbtn"><i class="fa-regular fa-house"></i></button></div>
+            <div><button class="iconbtn"><i class="fa-solid fa-gear"></i></button></div>
+        </div>
+
+    </div>
+</div>
+<div class="menu-wrapper">
+
+    <div class="side-menu" [class.active]="isOpen">
+
+        <button (click)="selectFeature('admit')">
+            <i class="fa-solid fa-download"></i> Download Admit Card
+        </button>
+
+        <button (click)="selectFeature('fees')">
+            <i class="fa-solid fa-money-bill"></i> Fees Payment
+        </button>
+
+        <button (click)="selectFeature('idcard')">
+            <i class="fa-solid fa-id-card"></i> ID Card
+        </button>
+
+        <button (click)="selectFeature('receipt')">
+            <i class="fa-solid fa-receipt"></i> My Receipt
+        </button>
+
+        <button (click)="selectFeature('question')">
+            <i class="fa-solid fa-circle-question"></i> Question
+        </button>
+
+        <button (click)="selectFeature('result')">
+            <i class="fa-solid fa-square-poll-horizontal"></i> Result
+        </button>
+
+    </div>
+</div>

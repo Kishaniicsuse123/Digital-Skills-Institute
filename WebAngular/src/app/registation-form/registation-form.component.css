@@ -1,0 +1,98 @@
+.registration-wrapper {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+    position: relative;
+    top:70px;
+    left:200px;
+
+}
+.form-container {
+    display: grid;
+    /* height: 700px; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+h3 {
+    grid-column: 1 / -1;
+    margin: 25px 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e5e7eb;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #374151;
+}
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 12px;
+    outline: none;
+    transition: .3s;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,.15);
+}
+.full-width {
+    grid-column: 1 / -1;
+}
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+@media(max-width:992px)
+{
+    .form-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+.ContactDetailsmain
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ContactDetails
+{
+    width: 45%;
+}
+.full-width
+{
+    background-color: #374151;
+}

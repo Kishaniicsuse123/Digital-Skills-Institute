@@ -1,0 +1,26 @@
+
+h2 {
+    font-weight: 600;
+}
+
+.table {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.table th {
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table-responsive {
+    height: 400px;
+    border-radius: 10px;
+    overflow: auto;
+    
+}

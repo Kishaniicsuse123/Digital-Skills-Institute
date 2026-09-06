@@ -1,0 +1,117 @@
+/* ---------------slider image------------- */
+.SliderContainer
+{
+  
+  margin-top: 100px;
+  height: 500px;
+}
+
+/*----------- containt----------- */
+
+.SortturmCourseInfo
+{
+  position: relative;
+  top: 50px;
+  margin-bottom: 100px;
+}
+.DegreeInfo
+{
+  border: solid 1px  black;
+  border-radius: 3px;
+  position: relative;
+  top: 150px;
+  padding: 10px;
+}
+.CourseRow
+{
+ align-content: center;
+  color: white;
+  font-size: 16px;
+  background-color:#4a90e2;
+  height:50px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.CourseName{
+  background-color: #0d6efd;
+  color: white;
+}
+
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    
+    .form-container{
+      width:350px;
+      background:#fff;
+      padding:30px;
+      border-radius:15px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .form-container h2{
+      text-align:center;
+      margin-bottom:25px;
+      color:#333;
+    }
+     .input-group{
+      margin-bottom:8px;
+    } 
+
+    .input-group label{
+      display:block;
+      margin-bottom:6px;
+      font-weight:600;
+      color:#444;
+    }
+
+    .input-group input{
+      width:100%;
+      padding:12px;
+      border:1px solid #ccc;
+      border-radius:8px;
+      outline:none;
+      font-size:15px;
+      transition:0.3s;
+    }
+
+    .input-group input:focus{
+      border-color:#4a90e2;
+      box-shadow:0 0 5px rgba(74,144,226,0.4);
+    }
+
+    .btn{
+      width:100%;
+      padding:5px;
+      border:none;
+      border-radius:8px;
+      background:#4a90e2;
+      color:white;
+      font-size:12px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#357bd8;
+    }
+    .enquire
+    {
+      height: 30px;
+    }
+    .grid
+    {
+      display: flex;
+      padding: 0px;
+      box-shadow: 0px 0px 1px gray;
+    }
+    .descriptionBox
+    {
+
+      padding: 10px;
+      box-shadow: 0px 0px 1px gray;
+    }

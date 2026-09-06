@@ -1,0 +1,674 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "DigitalSkillsInstitute",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Courseinfo": {
+      "get": {
+        "tags": [
+          "Courseinfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DegreeInfo/{CourseId}": {
+      "get": {
+        "tags": [
+          "DegreeInfo"
+        ],
+        "parameters": [
+          {
+            "name": "CourseId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DegreeInfo/DgreeinfoDetailsFees/{id}": {
+      "get": {
+        "tags": [
+          "DegreeInfo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/GetShortTermCourseDetail/{id}": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/GetCourseRegistrationList": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/SaveEnquiryDetail": {
+      "post": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Enquiry"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Enquiry"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Enquiry"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/GetEnquiryList": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/GetCourseRegistrationBasicDetail/{RegistrationId}": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "parameters": [
+          {
+            "name": "RegistrationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/SaveCourseRegistrationDetail": {
+      "post": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "RegistrationId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FullName": {
+                    "type": "string"
+                  },
+                  "FatherMotherName": {
+                    "type": "string"
+                  },
+                  "Gender": {
+                    "type": "string"
+                  },
+                  "DateOfBirth": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ProfilePhoto": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "MobileNumber": {
+                    "type": "string"
+                  },
+                  "AlternateMobileNumber": {
+                    "type": "string"
+                  },
+                  "EmailAddress": {
+                    "type": "string"
+                  },
+                  "AddressLine": {
+                    "type": "string"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "State": {
+                    "type": "string"
+                  },
+                  "Pincode": {
+                    "type": "string"
+                  },
+                  "CourseName": {
+                    "type": "string"
+                  },
+                  "CourseMode": {
+                    "type": "string"
+                  },
+                  "CourseDuration": {
+                    "type": "string"
+                  },
+                  "BatchTiming": {
+                    "type": "string"
+                  },
+                  "PreferredStartDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "HighestQualification": {
+                    "type": "string"
+                  },
+                  "CollegeUniversityName": {
+                    "type": "string"
+                  },
+                  "PassingYear": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "PercentageCGPA": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "encoding": {
+                "RegistrationId": {
+                  "style": "form"
+                },
+                "FullName": {
+                  "style": "form"
+                },
+                "FatherMotherName": {
+                  "style": "form"
+                },
+                "Gender": {
+                  "style": "form"
+                },
+                "DateOfBirth": {
+                  "style": "form"
+                },
+                "ProfilePhoto": {
+                  "style": "form"
+                },
+                "MobileNumber": {
+                  "style": "form"
+                },
+                "AlternateMobileNumber": {
+                  "style": "form"
+                },
+                "EmailAddress": {
+                  "style": "form"
+                },
+                "AddressLine": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "State": {
+                  "style": "form"
+                },
+                "Pincode": {
+                  "style": "form"
+                },
+                "CourseName": {
+                  "style": "form"
+                },
+                "CourseMode": {
+                  "style": "form"
+                },
+                "CourseDuration": {
+                  "style": "form"
+                },
+                "BatchTiming": {
+                  "style": "form"
+                },
+                "PreferredStartDate": {
+                  "style": "form"
+                },
+                "HighestQualification": {
+                  "style": "form"
+                },
+                "CollegeUniversityName": {
+                  "style": "form"
+                },
+                "PassingYear": {
+                  "style": "form"
+                },
+                "PercentageCGPA": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/DeleteEmployee/{RegistrationId}": {
+      "delete": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "parameters": [
+          {
+            "name": "RegistrationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/GetPersonalInfo/{RegistrationId}": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "parameters": [
+          {
+            "name": "RegistrationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/SavePersonalInfo": {
+      "post": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "RegistrationId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FullName": {
+                    "type": "string"
+                  },
+                  "FatherMotherName": {
+                    "type": "string"
+                  },
+                  "Gender": {
+                    "type": "string"
+                  },
+                  "DateOfBirth": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ProfilePhotoFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "RegistrationId": {
+                  "style": "form"
+                },
+                "FullName": {
+                  "style": "form"
+                },
+                "FatherMotherName": {
+                  "style": "form"
+                },
+                "Gender": {
+                  "style": "form"
+                },
+                "DateOfBirth": {
+                  "style": "form"
+                },
+                "ProfilePhotoFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/GetContactDetail/{RegistrationId}": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "parameters": [
+          {
+            "name": "RegistrationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/SaveContactDetail": {
+      "post": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactDetail"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactDetail"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactDetail"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/GetEductionDetails/{RegistrationId}": {
+      "get": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "parameters": [
+          {
+            "name": "RegistrationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SortturmCourse/SaveEducationDetail": {
+      "post": {
+        "tags": [
+          "SortturmCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EductionDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EductionDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EductionDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ContactDetail": {
+        "type": "object",
+        "properties": {
+          "registrationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mobileNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "alternateMobileNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressLine": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "pincode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EductionDetails": {
+        "type": "object",
+        "properties": {
+          "registrationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "courseName": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseMode": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseDuration": {
+            "type": "string",
+            "nullable": true
+          },
+          "batchTiming": {
+            "type": "string",
+            "nullable": true
+          },
+          "preferredStartDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "highestQualification": {
+            "type": "string",
+            "nullable": true
+          },
+          "collegeUniversityName": {
+            "type": "string",
+            "nullable": true
+          },
+          "passingYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "percentageCGPA": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Enquiry": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "courseName": {
+            "type": "string",
+            "nullable": true
+          },
+          "mobileNo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+<div class="container SliderContainer">
+  <img [src]="images[currentIndex]" alt="Slider Image" style="width: 100%; height: 100%;   box-shadow: 0px 0px 14px 0px;">
+</div>
+
+
+<div class="container DegreeInfo">
+    <div  class="CourseRow">
+        {{ DegreeInfo.name}}
+    </div>
+    <div class="row d-flex justify-content-around">
+        <div class="col-2 grid">
+            <img [src]="DegreeInfo?.image" alt="Course Image" class="img-fluid rounded-4 shadow" />
+        </div>
+        <div class="col-3 descriptionBox">
+            <h4>Description</h4>
+            {{ DegreeInfo?.description}}
+        </div>
+        <div class="col-4 grid" style="display:flex;">
+            <table class="table table-bordered align-middle">
+
+                <tbody>
+                    <tr>
+                        <th class="bg-light w-25">Name</th>
+                        <td style="background-color: aqua;" *ngIf="DegreeInfo"> {{ DegreeInfo?.name}}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light w-25">Duration</th>
+                        <td>{{ DegreeInfo?.duration }}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Fees</th>
+                        <td>₹ {{ DegreeInfo?.fees }}</td>
+                    </tr>
+
+
+                    <tr>
+                        <th class="bg-light">TotalSemester</th>
+                        <td>₹ {{ DegreeInfo?.totalSemester }}</td>
+                    </tr>
+
+
+                    <tr>
+                        <th class="bg-light">Eligibility</th>
+                        <td>{{ DegreeInfo?.eligibility }}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Mode</th>
+                        <td>{{ DegreeInfo?.mode }}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Language</th>
+                        <td>{{ DegreeInfo?.language }}</td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Level</th>
+                        <td>{{ DegreeInfo?.level }}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <table class="table table-bordered align-middle">
+
+                <tbody>
+                    <tr>
+                        <th class="bg-light">Rating</th>
+                        <td>
+                            ⭐ {{ DegreeInfo?.rating }}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Students</th>
+                        <td>
+                            {{ DegreeInfo?.students }}+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="bg-light">Certification</th>
+                        <td>
+                            <span class="badge bg-success px-3 py-2" *ngIf="DegreeInfo?.certification">
+                                Available
+                            </span>
+
+                            <span class="badge bg-danger px-3 py-2" *ngIf="!DegreeInfo?.certification">
+                                Not Available
+                            </span>
+                        </td>
+                    </tr>
+                    <tr *ngFor="let item of semesterFeesData">
+                        <td class="bg-light"> <b>{{ item.semesterName }}</b></td>
+                        <td>{{ item.semesterFees }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+  
+        <div class="col-2 grid">
+             <!-- <form>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" class="enquire">
+                </div>
+
+                <div class="input-group">
+                    <label>Mobile No</label>
+                    <input type="text" placeholder="Enter mobile number" class="enquire">
+                </div>
+
+                <div class="input-group">
+                    <label>Course</label>
+                    <input type="text" placeholder="Enter course name" class="enquire">
+                </div>
+
+
+                <button type="submit" class="btn enquire">
+                    Submit Inquiry
+                </button>
+
+            </form> -->
+             <form (ngSubmit)="saveData()">
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" name="email" [(ngModel)]="enquiry.email" placeholder="Enter your email"
+                        class="enquire">
+                </div>
+
+                <div class="input-group">
+                    <label>Mobile No</label>
+                    <input type="text" name="mobileNo" [(ngModel)]="enquiry.mobileNo" placeholder="Enter mobile number"
+                        class="enquire">
+                </div>
+
+                <div class="input-group">
+                    <label>Course</label>
+                    <input type="text" name="courseName" [(ngModel)]="enquiry.courseName"
+                        placeholder="Enter course name" class="enquire">
+                </div>
+
+                <button type="submit" class="btn enquire">
+                    Submit Inquiry
+                </button>
+
+            </form>
+        
+            
+        </div> 
+
+    </div>
+
+
+</div>

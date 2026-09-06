@@ -1,0 +1,380 @@
+[
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.CourseinfoController",
+    "Method": "Courseinfo",
+    "RelativePath": "api/Courseinfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.DegreeInfoController",
+    "Method": "Degreeinfo",
+    "RelativePath": "api/DegreeInfo/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.DegreeInfoController",
+    "Method": "DgreeinfoDetailsFees",
+    "RelativePath": "api/DegreeInfo/DgreeinfoDetailsFees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "Sortourse",
+    "RelativePath": "api/SortturmCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/SortturmCourse/DeleteEmployee/{RegistrationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "GetContactDetail",
+    "RelativePath": "api/SortturmCourse/GetContactDetail/{RegistrationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "GetCourseRegistrationBasicDetail",
+    "RelativePath": "api/SortturmCourse/GetCourseRegistrationBasicDetail/{RegistrationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "GetCourseRegistrationList",
+    "RelativePath": "api/SortturmCourse/GetCourseRegistrationList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "GetEductionDetails",
+    "RelativePath": "api/SortturmCourse/GetEductionDetails/{RegistrationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "GetEnquiryList",
+    "RelativePath": "api/SortturmCourse/GetEnquiryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "GetPersonalInfo",
+    "RelativePath": "api/SortturmCourse/GetPersonalInfo/{RegistrationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "GetShortTermCourseDetail",
+    "RelativePath": "api/SortturmCourse/GetShortTermCourseDetail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "SaveContactDetail",
+    "RelativePath": "api/SortturmCourse/SaveContactDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DigitalSkillsInstitute.Model.ContactDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "SaveCourseRegistrationDetail",
+    "RelativePath": "api/SortturmCourse/SaveCourseRegistrationDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FatherMotherName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePhoto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "MobileNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AlternateMobileNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmailAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AddressLine",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "State",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pincode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseMode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseDuration",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BatchTiming",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PreferredStartDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "HighestQualification",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CollegeUniversityName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PassingYear",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PercentageCGPA",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "SaveEducationDetail",
+    "RelativePath": "api/SortturmCourse/SaveEducationDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DigitalSkillsInstitute.Model.EductionDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "SaveEnquiryDetail",
+    "RelativePath": "api/SortturmCourse/SaveEnquiryDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "enquiry",
+        "Type": "DigitalSkillsInstitute.Model.Enquiry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DigitalSkillsInstitute.Controllers.SortturmCourseController",
+    "Method": "SavePersonalInfo",
+    "RelativePath": "api/SortturmCourse/SavePersonalInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RegistrationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FatherMotherName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePhotoFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

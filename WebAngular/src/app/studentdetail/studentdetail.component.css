@@ -1,0 +1,255 @@
+/* .container
+{
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 0px 5px 0px;
+    height: 450px;
+}
+h2 {
+    font-weight: 600;
+}
+
+.table {
+    font-size: 14px;
+    white-space: nowrap;
+    
+}
+
+.table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table-responsive {
+    border-radius: 10px;
+    overflow: auto;
+} */
+.container-flud {
+    position: relative;
+    top: 100px;
+    border: solid black 1px;
+    height: 700px;
+
+}
+
+.row {
+
+    /* border: solid blue 1px; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.column {
+
+    height: 100%;
+}
+
+.profile-card {
+
+    padding: 0px;
+    background: white;
+    box-shadow: 0px 0px 7px 0px gray;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12); */
+    /* overflow: hidden; */
+    font-family: Arial, sans-serif;
+}
+
+.profile-header {
+
+    height: 250px;
+   margin: 50px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   box-shadow: 0px 0px 5px 0px gray;
+    color: #fff;
+
+}
+ 
+.profile-photo {
+   
+    box-shadow: 0px 0px 4px 0px gray;
+    width: 65%;
+    
+    height: 100%;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: 15px;
+} 
+
+/* .profile-header h2 {
+    margin: 0;
+    font-size: 24px;
+} */
+
+.profile-body {
+    padding: 25px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.label {
+    font-weight: 600;
+    color: #555;
+}
+
+.value {
+    color: #333;
+    text-align: right;
+}
+
+/* Edit-Profile-info */
+
+    .Edit-profile-body
+    {
+        position: absolute;
+        
+        left: 10%;
+        top: 235px;
+        background-color: white;
+        box-shadow: 0px 0px 5px 0px gray;
+        padding: 35px;
+    }
+/* -------Course Details */
+.contact-card {
+    background: #fff;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    padding: auto;
+    background: #4f46e5;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px 20px; */
+}
+
+.btn {
+    box-shadow: 0px 0px 4px 0px white;
+    color: white;
+}
+
+.card-header h4 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.info-box {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.info-box label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #212529;
+    word-break: break-word;
+}
+
+/* eduction Detail */
+.education-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background: #4f46e5;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.card-header h4 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.info-box {
+    background: #f8f9fa;
+    padding: 12px;
+    /* border-radius: 10px; */
+    height: 100%;
+}
+
+.info-box label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.editdetails {
+    border-radius: 7px;
+    box-shadow: 0px 0px 11px 0px gray;
+    padding: 20px;
+    position:absolute;
+    top: 250px;
+    left: 39%;
+    height: 400px;
+    width: 700px;
+    background-color: white;
+}
+
+.EditEductionCard {
+    border-radius: 7px;
+    box-shadow: 0px 0px 11px 0px gray;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    height: 400px;
+    width: 700px;
+    background-color: white;
+}
+
+.profile-header {
+    margin: 0px;
+}

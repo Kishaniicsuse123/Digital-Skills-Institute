@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Navbar</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light  shadow-sm">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#"><img src="images/logo.png" class="logo"></a>
+
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <form class="d-flex mx-auto" role="search" (submit)="$event.preventDefault()">
+
+                    <input class="form-control me-2" type="search" placeholder="Search here">
+
+                    <button type="button" class="btn btn-primary">Search</button>
+
+                </form>
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-primary" routerLink="/RegistrationList">Registration List</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-primary" routerLink="/Registation">Registation</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="btn btn-primary" routerLink="/">Course</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-primary" routerLink="/longterm-course">Long Term Course</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
