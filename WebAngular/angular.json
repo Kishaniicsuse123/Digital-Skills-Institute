@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "CourseDetails": {
+    "WebAngular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "CourseDetails:build:production"
+              "buildTarget": "WebAngular:build:production"
             },
             "development": {
-              "buildTarget": "CourseDetails:build:development"
+              "buildTarget": "WebAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
